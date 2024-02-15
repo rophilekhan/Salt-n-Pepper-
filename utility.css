@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* utility classes */
+/* flex classes start */
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.align-center{
+    align-items: center;
+}
+.align-between{
+    align-items: space-between;
+}
+.align-around{
+    align-items: space-around;
+}
+.align-evenly{
+    align-items: space-evenly;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+/* flex classes end */
+/* margin classes start */
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 10px;
+}
+.m-3{
+    margin: 15px;
+}
+.m-4{
+    margin: 20px;
+}
+.mt-1{
+    margin-top: 5px;
+}
+.mt-2{
+    margin-top: 10px;
+}
+.mt-3{
+    margin-top: 15px;
+}
+.mt-4{
+    margin-top: 20px;
+}
+.mt-5{
+    margin-top: 50px;
+}
+.mt-6{
+    margin-top: 300px;
+}
+.mb-1{
+    margin-bottom: 50px;
+}
+/* margin classes end */
+
+.bg-light{
+    background-color: #ffffff;
+}
+.bg-dark{
+    background-color: #000000;
+}
+.bg-grey{
+    background-color: #0f0f0f;
+}
+
+.center{
+    text-align: center;
+}
+.rounded-nav{
+    border-radius: 30px;
+    text-decoration: none;
+    text-size-adjust: 50px;
+}
+
+.rounded{
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.rounded-sm{
+    border-radius: 10px;
+}
+.rounded-md{
+    border-radius: 20px;
+}
+.text-dark{
+    color: #000000;
+}
+.text-light{
+    color: #ffffff;
+}
+.text-grey{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.publications-content-holds {
+    border: 1px solid #ffffff52;
+padding: 32px 0px 40px;
+}
+
+.holds:hover {
+   
+padding: 32px 0px 40px;
+transform: scale(1.5);
+}
+
+.star:hover{
+    color: red;
+}
+
+
+
+/* Feedback  */
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    color: black;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,106 @@
+@font-face {
+    font-family: headfont;
+    src: url(./assets/Arbutus-Regular.ttf);
+}
+
+#salt-heading{
+    font-family: "headfont";
+    font-size: xxx-large;
+    letter-spacing: 5px;
+    }
+
+    #salt{
+        font-family: "headfont";
+        font-weight: 500;
+        
+        }    
+#heads{
+    font-size: xx-large;
+    letter-spacing: 5px;
+}
+
+/* color variable */
+:root{
+    --red:#f42625;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+
+/* navbar styling */
+#navbar-items{
+    gap: 30px;
+}
+#navbar{
+    padding: 0px 50px;
+}
+
+#main-logo{
+    width: 165px;
+}
+.nav-link{
+    text-decoration: none;
+}
+#franchise{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#order-online{
+    background-color: var(--red);
+    border: 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#get-direct{
+    background-color: #28A745;
+    border: 1px solid white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#red{
+    color: var(--red);
+}
+
+#green{
+    color: #28A745;
+}
+#black{
+    color: #000000;
+}
+
+#btn-icon{
+    padding: 5px 7px; 
+}
+
+#children-images{
+    gap: 30px;
+}
+
+#city {
+    text-align: center;
+    letter-spacing: 15px;
+    color: var(--red);
+}
+
+#city-2 {
+    /* text-align: center; */
+    letter-spacing: 10px;
+    font-size: small;
+    color: var(--red);
+}
+
+#franchise-images{
+    gap: 30px;
+}
+
+#welcome-container{
+    width: 720px;
+    height: 423px;
+    padding: 70px 15px 32px;    
+    margin-top: 20px;
+}
+
+
